@@ -12,7 +12,6 @@
 		100FD1B31A0FEB83001BBAE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100FD1B21A0FEB83001BBAE5 /* ViewController.m */; };
 		100FD1B61A0FEB83001BBAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100FD1B41A0FEB83001BBAE5 /* Main.storyboard */; };
 		100FD1B81A0FEB83001BBAE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100FD1B71A0FEB83001BBAE5 /* Images.xcassets */; };
-		100FD1BB1A0FEB83001BBAE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 100FD1B91A0FEB83001BBAE5 /* LaunchScreen.xib */; };
 		100FD1C71A0FEB83001BBAE5 /* cpbaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100FD1C61A0FEB83001BBAE5 /* cpbaTests.m */; };
 		100FD1D11A0FFCDB001BBAE5 /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 100FD1D01A0FFCDB001BBAE5 /* splashScreen.png */; };
 		100FD1D31A0FFE08001BBAE5 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 100FD1D21A0FFE08001BBAE5 /* top.png */; };
@@ -30,6 +29,7 @@
 		100FD1F01A102906001BBAE5 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100FD1EF1A102906001BBAE5 /* InformationViewController.m */; };
 		100FD1F31A10291E001BBAE5 /* PanicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100FD1F21A10291E001BBAE5 /* PanicViewController.m */; };
 		100FD1F61A102940001BBAE5 /* AccidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100FD1F51A102940001BBAE5 /* AccidentViewController.m */; };
+		5102CD6E1AA9076D0031931E /* tarifas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5102CD6D1AA9076D0031931E /* tarifas.jpg */; };
 		510A4BD01A1155CD0019C45A /* cemase.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A4BCF1A1155CD0019C45A /* cemase.png */; };
 		510A4BD21A12A4710019C45A /* ic_calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A4BD11A12A4710019C45A /* ic_calculator.png */; };
 		510A4BDA1A12B12E0019C45A /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A4BD31A12B12E0019C45A /* green.png */; };
@@ -39,7 +39,6 @@
 		510A4BDE1A12B12E0019C45A /* ic_yellow_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A4BD71A12B12E0019C45A /* ic_yellow_light.png */; };
 		510A4BDF1A12B12E0019C45A /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A4BD81A12B12E0019C45A /* red.png */; };
 		510A4BE01A12B12E0019C45A /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A4BD91A12B12E0019C45A /* yellow.png */; };
-		510B4D171A8BD2D500AA140E /* tarifas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510B4D161A8BD2D500AA140E /* tarifas.jpg */; };
 		515D1B521A10993A000DBC19 /* GetMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1B511A10993A000DBC19 /* GetMediator.m */; };
 		515D1B551A109945000DBC19 /* RestMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1B541A109945000DBC19 /* RestMediator.m */; };
 		515D1B5A1A10994F000DBC19 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1B571A10994F000DBC19 /* XmlParser.m */; };
@@ -82,7 +81,6 @@
 		100FD1B21A0FEB83001BBAE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		100FD1B51A0FEB83001BBAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		100FD1B71A0FEB83001BBAE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		100FD1BA1A0FEB83001BBAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		100FD1C01A0FEB83001BBAE5 /* cpbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100FD1C51A0FEB83001BBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100FD1C61A0FEB83001BBAE5 /* cpbaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpbaTests.m; sourceTree = "<group>"; };
@@ -107,6 +105,7 @@
 		100FD1F21A10291E001BBAE5 /* PanicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanicViewController.m; sourceTree = "<group>"; };
 		100FD1F41A102940001BBAE5 /* AccidentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccidentViewController.h; sourceTree = "<group>"; };
 		100FD1F51A102940001BBAE5 /* AccidentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccidentViewController.m; sourceTree = "<group>"; };
+		5102CD6D1AA9076D0031931E /* tarifas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarifas.jpg; sourceTree = "<group>"; };
 		510A4BCF1A1155CD0019C45A /* cemase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cemase.png; sourceTree = "<group>"; };
 		510A4BD11A12A4710019C45A /* ic_calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_calculator.png; sourceTree = "<group>"; };
 		510A4BD31A12B12E0019C45A /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 		510A4BD71A12B12E0019C45A /* ic_yellow_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_yellow_light.png; sourceTree = "<group>"; };
 		510A4BD81A12B12E0019C45A /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		510A4BD91A12B12E0019C45A /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
-		510B4D161A8BD2D500AA140E /* tarifas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tarifas.jpg; path = ../../../Desktop/tarifas.jpg; sourceTree = "<group>"; };
 		515D1B501A10993A000DBC19 /* GetMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMediator.h; sourceTree = "<group>"; };
 		515D1B511A10993A000DBC19 /* GetMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMediator.m; sourceTree = "<group>"; };
 		515D1B531A109945000DBC19 /* RestMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestMediator.h; sourceTree = "<group>"; };
@@ -223,7 +221,6 @@
 				100FD1B21A0FEB83001BBAE5 /* ViewController.m */,
 				100FD1B41A0FEB83001BBAE5 /* Main.storyboard */,
 				100FD1B71A0FEB83001BBAE5 /* Images.xcassets */,
-				100FD1B91A0FEB83001BBAE5 /* LaunchScreen.xib */,
 				100FD1AA1A0FEB83001BBAE5 /* Supporting Files */,
 				100FD1E81A1028BF001BBAE5 /* ComplainsViewController.h */,
 				100FD1E91A1028BF001BBAE5 /* ComplainsViewController.m */,
@@ -268,7 +265,7 @@
 		100FD1F71A10294A001BBAE5 /* artWork */ = {
 			isa = PBXGroup;
 			children = (
-				510B4D161A8BD2D500AA140E /* tarifas.jpg */,
+				5102CD6D1AA9076D0031931E /* tarifas.jpg */,
 				51E6C2351A13002000AFBD7E /* ic_no_image.gif */,
 				510A4BD31A12B12E0019C45A /* green.png */,
 				510A4BD41A12B12E0019C45A /* headlight.png */,
@@ -407,7 +404,6 @@
 				510A4BDB1A12B12E0019C45A /* headlight.png in Resources */,
 				510A4BE01A12B12E0019C45A /* yellow.png in Resources */,
 				100FD1B61A0FEB83001BBAE5 /* Main.storyboard in Resources */,
-				100FD1BB1A0FEB83001BBAE5 /* LaunchScreen.xib in Resources */,
 				100FD1E71A101F6F001BBAE5 /* Panic Button.jpg in Resources */,
 				510A4BDF1A12B12E0019C45A /* red.png in Resources */,
 				510A4BDA1A12B12E0019C45A /* green.png in Resources */,
@@ -416,7 +412,6 @@
 				51E6C2361A13002000AFBD7E /* ic_no_image.gif in Resources */,
 				510A4BDD1A12B12E0019C45A /* ic_red_light.png in Resources */,
 				510A4BDC1A12B12E0019C45A /* ic_green_light.png in Resources */,
-				510B4D171A8BD2D500AA140E /* tarifas.jpg in Resources */,
 				100FD1D71A10023E001BBAE5 /* accident.png in Resources */,
 				100FD1D11A0FFCDB001BBAE5 /* splashScreen.png in Resources */,
 				510A4BDE1A12B12E0019C45A /* ic_yellow_light.png in Resources */,
@@ -426,6 +421,7 @@
 				510A4BD01A1155CD0019C45A /* cemase.png in Resources */,
 				100FD1E11A100252001BBAE5 /* report_picture.png in Resources */,
 				510A4BD21A12A4710019C45A /* ic_calculator.png in Resources */,
+				5102CD6E1AA9076D0031931E /* tarifas.jpg in Resources */,
 				100FD1D81A10023E001BBAE5 /* autodial.png in Resources */,
 				100FD1D31A0FFE08001BBAE5 /* top.png in Resources */,
 				100FD1B81A0FEB83001BBAE5 /* Images.xcassets in Resources */,
@@ -495,14 +491,6 @@
 				100FD1B51A0FEB83001BBAE5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		100FD1B91A0FEB83001BBAE5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				100FD1BA1A0FEB83001BBAE5 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -596,7 +584,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -612,7 +600,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

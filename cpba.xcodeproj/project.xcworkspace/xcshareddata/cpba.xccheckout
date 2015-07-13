@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AA0F0F63-D80F-453D-8DA5-F270176D49F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cpba</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</key>
+		<string>https://github.com/hgoycoolea/cpba.iphone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cpba.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hgoycoolea/cpba.iphone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cpba%202</string>
+		</dict>
+	</array>
+</dict>
+</plist>

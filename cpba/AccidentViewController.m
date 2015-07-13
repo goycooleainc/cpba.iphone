@@ -135,7 +135,7 @@
 
 -(void) postImage: (NSString *) image_name image:(UIImage *) image
 {
-    ASIFormDataRequest *request=[ASIFormDataRequest requestWithURL:[NSURL URLWithString:@"http://pandora.2get.mobi/Cpba/upload"]];
+    ASIFormDataRequest *request=[ASIFormDataRequest requestWithURL:[NSURL URLWithString:@"http://cpba.goycooleainc.enterprises/Cpba/upload"]];
      NSData *imageDataForSignature = UIImagePNGRepresentation(image);
      [request setData: imageDataForSignature withFileName: image_name andContentType:@"image/png" forKey:@"file"];
     [request setPostValue:image_name forKey:@"name"];
