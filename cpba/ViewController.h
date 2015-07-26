@@ -18,7 +18,6 @@
 @property (nonatomic, retain) IBOutlet CLLocationManager *locationManager;
 @property (nonatomic, retain) IBOutlet UILabel *grado;
 @property (nonatomic, retain) IBOutlet UITextField *pin;
-
 @property (nonatomic, retain) IBOutlet UILabel *laEstadoTransito;
 @property (nonatomic, retain) IBOutlet UIImageView *imageLight;
 @property (nonatomic, retain) IBOutlet UIImageView *imageCars;

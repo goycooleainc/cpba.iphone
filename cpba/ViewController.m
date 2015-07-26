@@ -1,10 +1,10 @@
+   //
+  //  ViewController.m
+ //  cpba
 //
-//  ViewController.m
-//  cpba
-//
-//  Created by Hector Goycoolea on 11/9/14.
-//  Copyright (c) 2014 Goycoolea inc. All rights reserved.
-//
+ //  Created by Hector Goycoolea on 11/9/14.
+  //  Copyright (c) 2014 Goycoolea inc. All rights reserved.
+   //
 
 #import "ViewController.h"
 #import <CoreLocation/CoreLocation.h>
@@ -12,19 +12,27 @@
 #include "AccidentViewController.h"
 #include "GetMediator.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    NSMutableArray * array;
+}
 @property (nonatomic, retain) IBOutlet UILabel *date;
 @property (nonatomic, retain) IBOutlet UILabel *location;
 @property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activity;
 
+
+
 @end
 
-@implementation ViewController
+@implementation ViewController  
 
 @synthesize locationManager;
+@synthesize thetableview;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.thetableview.delegate = self;
+    self.thetableview.dataSource = self;
     // Do any additional setup after loading the view, typically from a nib.
     
     
@@ -42,6 +50,7 @@
     
      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateMethod:) name:UIApplicationWillEnterForegroundNotification object:nil];
     
+    array = [[NSMutableArray alloc]initWhithObjects:@"one",@"two",@"three",@"four",@"five",@"six",@"seven",@"ocho", nil];
     
     
     
