@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</key>
-		<string>https://github.com/hgoycoolea/cpba.iphone.git</string>
+		<string>https://github.com/goycooleainc/cpba.iphone.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>cpba.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/hgoycoolea/cpba.iphone.git</string>
+	<string>https://github.com/goycooleainc/cpba.iphone.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</string>
 			<key>IDESourceControlWCCName</key>
-			<string>cpba%202</string>
+			<string>cpba.iphone</string>
 		</dict>
 	</array>
 </dict>

@@ -31,5 +31,4 @@
 // or cancel it ([request cancelAuthentication])
 - (void)authenticationNeededForRequest:(ASIHTTPRequest *)request;
 - (void)proxyAuthenticationNeededForRequest:(ASIHTTPRequest *)request;
-
 @end

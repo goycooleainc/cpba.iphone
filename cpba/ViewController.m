@@ -26,13 +26,11 @@
 @implementation ViewController  
 
 @synthesize locationManager;
-@synthesize thetableview;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.thetableview.delegate = self;
-    self.thetableview.dataSource = self;
+
+
     // Do any additional setup after loading the view, typically from a nib.
     
     
@@ -49,8 +47,6 @@
                                     repeats:YES];
     
      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateMethod:) name:UIApplicationWillEnterForegroundNotification object:nil];
-    
-    array = [[NSMutableArray alloc]initWhithObjects:@"one",@"two",@"three",@"four",@"five",@"six",@"seven",@"ocho", nil];
     
     
     
