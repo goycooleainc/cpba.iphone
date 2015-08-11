@@ -27,6 +27,10 @@
 
 @synthesize locationManager;
 
+-(void)viewDidAppear:(BOOL)animated{
+    [self loadTraffic];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -40,7 +44,7 @@
                                                object:nil];
 
     
-    [NSTimer scheduledTimerWithTimeInterval:0.5f
+    [NSTimer scheduledTimerWithTimeInterval:190.5f
                                      target:self
                                    selector:@selector(updateMethod:)
                                    userInfo:nil

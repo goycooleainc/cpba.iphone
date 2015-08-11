@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AA0F0F63-D80F-453D-8DA5-F270176D49F9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>cpba</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</key>
 		<string>https://github.com/goycooleainc/cpba.iphone.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>cpba.xcodeproj</string>
+	<string>cpba.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A9B5381B8D3496B5AB5B13C952DAEAB1E493D507</key>
